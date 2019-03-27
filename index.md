@@ -16,8 +16,13 @@ Kids and adults
 <h2>Send your confirmation:</h2>
 
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
+Name:
+<br>
+<input type="text" name="name">
+<br>  
+<input type="checkbox" name="response" value="Yes" /> Yes, I will be there
+<input type="checkbox" name="response" value="No" /> Nah, not this time
+<br>
 <br>
 Comment:<br>
 <input type="text" name="comment" size="250"><br><br>
