@@ -12,15 +12,15 @@ movement will be limited to own Half only.
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<p><strong>Next practice/game date:&nbsp;   
+<p><strong>Next practice/game date:&nbsp;</p>   
 
 <script> 
 n =  new Date();
-y = n.getFullYear().toLocaleDateString();
-m = (n.getMonth() + 1).toLocaleDateString();
-d = n.getDate().toLocaleDateString();
+y = n.getFullYear();
+m = (n.getMonth() + 1);
+d = n.getDate();
  document.write(m + "/" + d + "/" + y); </script>
-</p>
+
 
 <p><strong>Response:</strong></p>
  
