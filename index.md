@@ -34,6 +34,8 @@ movement will be limited to own Half only.
   
  </script>
   
+  Yes
+  
  <br/> 
  Name: <input type="text" name="name"> 
  <br/>
