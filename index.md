@@ -17,17 +17,21 @@ Kids and adults
 <p> <b>Response:</b></p>
  
  Name: <input type="text" name="usrname"> 
-
-<input type="checkbox" name="response" value="Yes" /> Yes, I will be there
+<br>
+<br>
+<input type="checkbox" name="response" value="Yes" /> Yes, I will be there 
+<br>
 <input type="checkbox" name="response" value="No" /> Nah, not this time
 <br>
+<br> 
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
 <br>
-  
+<br> 
   <input type="submit" value="Send">
 </form>
 <br>
-<textarea rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
+
 
 <p></p>
 
