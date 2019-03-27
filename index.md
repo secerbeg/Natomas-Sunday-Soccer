@@ -8,11 +8,8 @@ movement will be limited to own Half only.
 
 
 
-<html>
- 
-<script> 
-</script> 
- 
+
+
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 <strong>Next practice/game date:   
@@ -29,9 +26,6 @@ movement will be limited to own Half only.
 <br><br> 
   <input type="submit" value="Send"/>
 </form>
-
-</body>
-</html>
 
 ### Location
 
