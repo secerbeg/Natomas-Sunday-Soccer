@@ -12,11 +12,6 @@ movement will be limited to own Half only.
 <script>
 var d = new Date();
 document.getElementById("date").innerHTML = d;
- 
-function PopUp()
-{
-  document.getElementById('ac-wrapper').style.display="none"; 
-}
 </script>
 
  
