@@ -4,7 +4,8 @@
 ### Participation 
 
 ```markdown
-This is intended for kids of all age groups; however, age group 10 and older will need to play as a goalie or
+This is intended for kids of all age groups;
+however, age group 10 and older will need to play as a goalie or
 movement will be limited to own Half only. 
  
 ```
