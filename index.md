@@ -13,6 +13,9 @@ movement will be limited to own Half only.
 <body>
 
  <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
+ <p><strong>Response:</strong></p>
+ Name: <input type="text" name="name"> 
+ <br/>
   <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
   <input type="radio" name="response" value="No" /> Nah, not this time
  <br/>
