@@ -15,10 +15,20 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
-  n = new Date();
-  y = n.getFullYear();
-  m = (n.getMonth() + 1);
-  d = n.getDate(); 
+
+
+
+   d = new Date();
+   day = d.getDay();
+   diff = d.getDate() - day + (day == 0 ? -6:1); // adjust when day is sunday
+   newDate = new Date(d.setDate(diff));
+
+
+  y = newDate.getFullYear();
+  m = (newDate.getMonth() + 1);
+  d = newDate.getDate(); 
+  
+  
   document.write(m + "/" + d + "/" + y); 
 </script> 
 <p><strong>Response:</strong></p>
