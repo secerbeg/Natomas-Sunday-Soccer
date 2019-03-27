@@ -11,14 +11,19 @@ movement will be limited to own Half only.
 <html>
 <script>
 var d = new Date();
-document.getElementById("demo").innerHTML = d;
+document.getElementById("date").innerHTML = d;
+ 
+function PopUp()
+{
+  document.getElementById('ac-wrapper').style.display="none"; 
+}
 </script>
 
  
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<strong>Next practice/game date:&nbsp;   </strong> <p id="demo"></p>
+<strong>Next practice/game date:&nbsp;   </strong> <p id="date"></p>
 
 <p><strong>Response:</strong></p>
  
