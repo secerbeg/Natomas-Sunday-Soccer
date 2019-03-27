@@ -13,6 +13,9 @@ movement will be limited to own Half only.
 <body>
 
  <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
+ <p><strong>Next Practice Date:</strong></p>
+ 
+ <br/>
  <p><strong>Response:</strong></p>
  Name: <input type="text" name="name"> 
  <br/>
