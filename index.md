@@ -15,12 +15,10 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
-d = new Date(d);
-var day = d.getDay();
-var newDate = d.getDate() - day; 
- 
- 
- 
+  d = new Date(d);
+  var day = d.getDay(),
+      diff = d.getDate() - day;
+  newDate = new Date(d.setDate(diff));
  
 y = newDate.getFullYear();
 m = (newDate.getMonth() + 1);
