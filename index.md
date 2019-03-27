@@ -9,7 +9,7 @@ Kids and adults
 
 ```
 
-<!DOCTYPE html>
+
 <html>
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
@@ -19,8 +19,7 @@ Kids and adults
  Name: <input type="text" name="usrname"> 
 <br>
 <br>
-<input type="checkbox" name="response" value="Yes" /> Yes, I will be there 
-<br>
+<input type="checkbox" name="response" value="Yes" /> Yes, I will be there         
 <input type="checkbox" name="response" value="No" /> Nah, not this time
 <br>
 <br> 
