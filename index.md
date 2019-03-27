@@ -5,15 +5,16 @@
 
 This is intended for kids of all age groups;however, age  10+ will need to play as a goalie and/or
 movement will be limited to own Half only. 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
- 
-var d = new Date();
-document.getElementById("demo").innerHTML = d.getFullYear();
-</script>
 
 
 
 <html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+</script>
+
+ 
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
