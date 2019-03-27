@@ -15,36 +15,16 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
-   d = new Date();
-   day = d.getDay();
-   diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
-
-   currWeekSunday = new Date(d.setDate(diff));
-
-   actualDate = currWeekSunday;
- 
-   if (d.getDay() > currWeekSunday.getDay() )
-   {
-     actualDate = new Date();
-   }
- 
-  y = actualDate.getFullYear();
-  m = (actualDate.getMonth() + 1);
-  d = actualDate.getDate(); 
- 
-
-
-document.write(d.getDay()); 
-  
-  
 </script> 
+
 <p><strong>Response:</strong></p>
- 
  Name: <input type="text" name="usrname"> 
+ 
 <br>
 <br>
 <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
 <input type="radio" name="response" value="No" /> Nah, not this time
+
 <br>
 <br> 
 <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
