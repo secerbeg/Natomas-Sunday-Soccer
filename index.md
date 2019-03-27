@@ -12,9 +12,10 @@ movement will be limited to own Half only.
 
 <body>
 
-   <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
-  
-  </form>
+ <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
+  <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
+  <input type="radio" name="response" value="No" /> Nah, not this time
+ </form>
   
   <input type="submit" value="Send"/>
 </body>
