@@ -15,6 +15,7 @@ movement will be limited to own Half only.
  <p><strong>Next Practice Date:</strong></p>
 
  <p><strong>Response:</strong></p>
+ <br/> 
  Name: <input type="text" name="name"> 
  <br/>
   <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
@@ -22,6 +23,7 @@ movement will be limited to own Half only.
  <br/>
  <p><strong>Comment:</strong></p>
   <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+ <br/>
  <br/> 
    <input type="submit" value="Send"/>
  </form>
