@@ -7,16 +7,13 @@ Kids and adults
 
 ```markdown
 
+```
 
 <form method="POST" action="https://formspree.io/YOUREMAILHERE">
   <input type="email" name="email" placeholder="Your email">
   <textarea name="message" placeholder="Test Message"></textarea>
   <button type="submit">Send Test</button>
 </form>
-
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
