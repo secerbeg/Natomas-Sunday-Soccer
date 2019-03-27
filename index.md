@@ -23,7 +23,7 @@ movement will be limited to own Half only.
 
    actualDate = currWeekSunday;
  
-   if ( d.getDay() > currWeekSunday.getDay() )
+   if (d.getDay() > currWeekSunday.getDay() )
    {
      actualDate = new Date();
    }
@@ -32,9 +32,9 @@ movement will be limited to own Half only.
   m = (actualDate.getMonth() + 1);
   d = actualDate.getDate(); 
  
-  document.write(m+'/'+d+'/'+y); 
+ // document.write(m+'/'+d+'/'+y); 
 
-
+document.write(d.getDay(); 
   
   
 </script> 
