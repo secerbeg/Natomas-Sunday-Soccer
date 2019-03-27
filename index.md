@@ -25,7 +25,7 @@ movement will be limited to own Half only.
  
    if (d > currWeekSunday)
    {
-     actualDate = nextWeekSunday;
+     actualDate = new Date();
    }
  
   y = actualDate.getFullYear();
