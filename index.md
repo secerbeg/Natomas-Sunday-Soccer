@@ -9,18 +9,17 @@ movement will be limited to own Half only.
 
 
 <html>
-<script src="script.js" type="text/javascript">
-var d = new Date();
-document.getElementById("date").innerHTML = d;
-</script>
-
- 
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<strong>Next practice/game date:&nbsp;   </strong> <p id="date"></p>
-<p>
-<script> document.write(new Date().toLocaleDateString()); </script>
+<p><strong>Next practice/game date:&nbsp;   
+
+<script> 
+n =  new Date();
+y = n.getFullYear().toLocaleDateString();
+m = (n.getMonth() + 1).toLocaleDateString();
+d = n.getDate().toLocaleDateString();
+ document.write(m + "/" + d + "/" + y); </script>
 </p>
 
 <p><strong>Response:</strong></p>
