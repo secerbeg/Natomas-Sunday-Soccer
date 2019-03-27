@@ -16,7 +16,8 @@ movement will be limited to own Half only.
   <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
   <input type="radio" name="response" value="No" /> Nah, not this time
  <br/>
- <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+ <p><strong>Comment:</strong></p>
+  <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
  
    <input type="submit" value="Send"/>
  </form>
