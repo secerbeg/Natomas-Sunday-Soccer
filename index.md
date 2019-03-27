@@ -22,9 +22,10 @@ movement will be limited to own Half only.
  
    if (new Date().getDate() > currWeekSunday.getDate() )
    {
-     actualDate =   actualDate.setDate(currWeekSunday.getDate() + 7);
-     
-     
+  
+    newdate = new Date();
+    newdate.setDate(currWeekSunday.getDate() + 7);  
+    actualDate =   newdate;   
    }
  
   y = actualDate.getFullYear();
