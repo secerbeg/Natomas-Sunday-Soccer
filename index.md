@@ -18,7 +18,7 @@ movement will be limited to own Half only.
 var d = new Date(d);
 y = d.getFullYear();
 m = (d.getMonth() + 1);
-d = d.getDate();
+
 document.write(m + "/" + d + "/" + y); </script>
 
 
