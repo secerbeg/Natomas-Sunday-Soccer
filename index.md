@@ -21,6 +21,9 @@ movement will be limited to own Half only.
    d = new Date();
    day = d.getDay();
    diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
+   
+  diff1 = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
+   diff2 = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
    newDate = new Date(d.setDate(diff));
 
 
@@ -29,7 +32,8 @@ movement will be limited to own Half only.
   d = newDate.getDate(); 
   
   
-  document.write(m + "/" + d + "/" + y); 
+  document.write(diff1); 
+  document.write(diff2); 
 </script> 
 <p><strong>Response:</strong></p>
  
