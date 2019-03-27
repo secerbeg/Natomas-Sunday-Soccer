@@ -26,7 +26,10 @@ movement will be limited to own Half only.
  
    actualDate = currWeekSunday;
  
-
+   if (d > currWeekSunday)
+   {
+     actualDate = nextWeekSunday;
+   }
  
   y = actualDate.getFullYear();
   m = (actualDate.getMonth() + 1);
