@@ -19,6 +19,7 @@ movement will be limited to own Half only.
    d = new Date();
    day = d.getDay();
    diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
+
    currWeekSunday = new Date(d.setDate(diff));
    
    nextWeekSunday = nextWeekSunday.setDate(currWeekSunday.getDate()+7);
