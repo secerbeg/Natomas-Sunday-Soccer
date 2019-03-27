@@ -16,13 +16,11 @@ movement will be limited to own Half only.
 
 <script> 
   d = new Date(d);
-  var day = d.getDay(),
-      diff = d.getDate() - day;
-  newDate = new Date(d.setDate(diff));
+
  
-y = newDate.getFullYear();
-m = (newDate.getMonth() + 1);
-d = newDate.getDate();
+y = d.getFullYear();
+m = (d.getMonth() + 1);
+d = d.getDate();
  
 
  
