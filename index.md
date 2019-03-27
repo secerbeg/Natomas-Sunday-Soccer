@@ -23,7 +23,7 @@ movement will be limited to own Half only.
 
    actualDate = currWeekSunday;
  
-   if ( d.getDay() > currWeekSunday.getDay())
+   if ( d.getDay() > currWeekSunday.getDay() )
    {
      actualDate = new Date();
    }
