@@ -11,6 +11,11 @@ movement will be limited to own Half only.
 <html>
 
 <body>
+
+   <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
+  
+  </form>
+  
   <input type="submit" value="Send"/>
 </body>
 </html>
