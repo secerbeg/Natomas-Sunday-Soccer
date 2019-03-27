@@ -11,8 +11,7 @@ movement will be limited to own Half only.
 <html>
 <body>
  <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
- <p><strong>Next Practice Date: </strong></p>
-  <br/>
+<strong>Next Practice Date: </strong>
   <script>
     d = new Date();
    day = d.getDay();
