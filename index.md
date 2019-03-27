@@ -34,7 +34,7 @@ document.write(m+'/'+d+'/'+y);
   
  </script>
   
-  Yes
+  No
   
  <br/> 
  Name: <input type="text" name="name"> 
