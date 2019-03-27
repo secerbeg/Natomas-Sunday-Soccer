@@ -18,7 +18,7 @@ movement will be limited to own Half only.
  <br/>
  <p><strong>Comment:</strong></p>
   <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
- 
+ <br/> 
    <input type="submit" value="Send"/>
  </form>
   
