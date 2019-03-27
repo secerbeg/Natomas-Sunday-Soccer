@@ -29,7 +29,7 @@ movement will be limited to own Half only.
   m = (actualDate.getMonth() + 1);
   d = actualDate.getDate(); 
  
-  document.write(day); 
+document.write(m+'/'+d+'/'+y); 
   
   
  </script>
