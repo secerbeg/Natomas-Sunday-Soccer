@@ -15,14 +15,10 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
-
-
-
    d = new Date();
    day = d.getDay();
    diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
 
-  
    newDate = new Date(d.setDate(diff));
 
 
@@ -30,8 +26,8 @@ movement will be limited to own Half only.
   m = (newDate.getMonth() + 1);
   d = newDate.getDate(); 
   
-  document.write(m+/+d+/+y); 
-  
+  document.write(m+'/'+d+'/'+y); 
+
 
   
   
