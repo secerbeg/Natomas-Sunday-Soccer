@@ -22,7 +22,7 @@ movement will be limited to own Half only.
    currWeekSunday = new Date(d.setDate(diff));
    
    nextWeekSunday = nextWeekSunday.setDate(currWeekSunday.getDate()+7);
-   document.writeln(nextWeekSunday);
+
  
    actualDate = currWeekSunday;
  
