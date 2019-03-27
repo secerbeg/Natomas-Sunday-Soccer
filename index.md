@@ -9,30 +9,26 @@ movement will be limited to own Half only.
 
 
 <html>
-<body>
-<form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
-
-<strong>Next practice/game date:   
-
+ 
 <script> 
 </script> 
-
+ 
+<body>
+<form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
+<strong>Next practice/game date:   
 <p><strong>Response:</strong></p>
  Name: <input type="text" name="usrname"> 
  
-<br>
-<br>
+<br><br>
 <input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
 <input type="radio" name="response" value="No" /> Nah, not this time
+<br><br> 
 
-<br>
-<br> 
 <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
-<br>
-<br> 
+
+<br><br> 
   <input type="submit" value="Send">
 </form>
-<br>
 
 </body>
 </html>
