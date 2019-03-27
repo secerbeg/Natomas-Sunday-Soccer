@@ -19,6 +19,9 @@ document.getElementById("date").innerHTML = d;
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
 <strong>Next practice/game date:&nbsp;   </strong> <p id="date"></p>
+<p>
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p>
 
 <p><strong>Response:</strong></p>
  
