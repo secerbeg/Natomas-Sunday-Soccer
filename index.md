@@ -9,7 +9,7 @@ movement will be limited to own Half only.
 
 
 <html>
-<script>
+<script src="script.js" type="text/javascript">
 var d = new Date();
 document.getElementById("date").innerHTML = d;
 </script>
