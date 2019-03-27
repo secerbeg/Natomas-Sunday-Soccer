@@ -20,6 +20,7 @@ Name:
 <br>
 <input type="text" name="name">
 <br>  
+Response:
 <input type="checkbox" name="response" value="Yes" /> Yes, I will be there
 <input type="checkbox" name="response" value="No" /> Nah, not this time
 <br>
