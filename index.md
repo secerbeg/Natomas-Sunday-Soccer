@@ -11,7 +11,7 @@ movement will be limited to own Half only.
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<p> <b>Response:</b></p>
+<p><b>Response:</b></p>
  
  Name: <input type="text" name="usrname"> 
 <br>
@@ -20,8 +20,7 @@ movement will be limited to own Half only.
 <input type="radio" name="response" value="No" /> Nah, not this time
 <br>
 <br> 
-<textarea rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
+<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
 <br>
 <br> 
   <input type="submit" value="Send">
