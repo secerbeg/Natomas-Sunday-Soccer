@@ -12,27 +12,30 @@ Kids and adults
 <!DOCTYPE html>
 <html>
 <body>
+<form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<h2>Send your confirmation:</h2>
+### Response:
+ 
+ Name: <input type="text" name="usrname"> 
 
-<form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain">
-Name:
-<br>
-<input type="text" name="name">
-<br>  
-Response:
 <input type="checkbox" name="response" value="Yes" /> Yes, I will be there
 <input type="checkbox" name="response" value="No" /> Nah, not this time
 <br>
 <br>
-Comment:<br>
-<input type="text" name="comment" size="250"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+  
+  <input type="submit" value="Send">
 </form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+
+<p></p>
+
+<p></p>
 
 </body>
 </html>
+
 
 ### Jekyll Themes
 
