@@ -34,7 +34,7 @@ movement will be limited to own Half only.
  
  // document.write(m+'/'+d+'/'+y); 
 
-document.write(d.getDay(); 
+document.write(d.getDay()); 
   
   
 </script> 
