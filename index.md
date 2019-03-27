@@ -22,7 +22,7 @@ movement will be limited to own Half only.
  
    if (new Date().getDate() > currWeekSunday.getDate() )
    {
-     actualDate = new Date();
+     actualDate =  new Date(currWeekSunday.getDate() + 7) ;
    }
  
   y = actualDate.getFullYear();
@@ -34,7 +34,7 @@ document.write(m+'/'+d+'/'+y);
   
  </script>
   
-  No
+  Yes
   
  <br/> 
  Name: <input type="text" name="name"> 
