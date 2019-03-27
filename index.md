@@ -15,6 +15,7 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
+ 
    d = new Date();
    day = d.getDay();
    diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
@@ -25,10 +26,7 @@ movement will be limited to own Half only.
  
    actualDate = currWeekSunday;
  
-   if (d > currWeekSunday)
-   {
-   actualDate = nextWeekSunday;
-   }
+
  
   y = actualDate.getFullYear();
   m = (actualDate.getMonth() + 1);
