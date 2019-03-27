@@ -12,7 +12,7 @@ movement will be limited to own Half only.
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<p><strong>Next practice/game date:&nbsp;</p>   
+<strong>Next practice/game date:   
 
 <script> 
 n =  new Date();
