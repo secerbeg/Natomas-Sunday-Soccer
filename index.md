@@ -20,7 +20,7 @@ movement will be limited to own Half only.
 
    d = new Date();
    day = d.getDay();
-   diff = d.getDate() - day + (day == 0 ? -6:1); // adjust when day is sunday
+   diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
    newDate = new Date(d.setDate(diff));
 
 
