@@ -9,10 +9,29 @@ movement will be limited to own Half only.
 
 
 <html>
-
 <body>
  <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
  <p><strong>Next Practice Date:</strong></p>
+  <script>
+    d = new Date();
+   day = d.getDay();
+   diff = d.getDate() - day + (day == 0 ? -6:0); // adjust when day is sunday
+
+   currWeekSunday = new Date(d.setDate(diff));
+   actualDate = currWeekSunday;
+ 
+   if (d.getDay() > currWeekSunday.getDay() )
+   {
+     actualDate = new Date();
+   }
+ 
+  y = actualDate.getFullYear();
+  m = (actualDate.getMonth() + 1);
+  d = actualDate.getDate(); 
+ 
+  document.write(d.getDay()); 
+ </script>
+  
  <br/> 
  Name: <input type="text" name="name"> 
  <br/>
