@@ -15,16 +15,11 @@ movement will be limited to own Half only.
 <strong>Next practice/game date:   
 
 <script> 
-  d = new Date(d);
-
- 
+var d = new Date(d);
 y = d.getFullYear();
 m = (d.getMonth() + 1);
 d = d.getDate();
- 
-
- 
- document.write(m + "/" + d + "/" + y); </script>
+document.write(m + "/" + d + "/" + y); </script>
 
 
 <p><strong>Response:</strong></p>
