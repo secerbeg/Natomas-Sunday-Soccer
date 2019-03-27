@@ -11,7 +11,8 @@ movement will be limited to own Half only.
 <html>
 <body>
  <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
- <p><strong>Next Practice Date:
+ <p><strong>Next Practice Date: </strong></p>
+  <br/>
   <script>
     d = new Date();
    day = d.getDay();
@@ -31,13 +32,12 @@ movement will be limited to own Half only.
   m = (actualDate.getMonth() + 1);
   d = actualDate.getDate(); 
  
-document.write(m+'/'+d+'/'+y);  
+  document.write(m+'/'+d+'/'+y);  
   
-  </strong></p>
  </script>
   
 
-  
+ <br/>  
  <br/> 
  Name: <input type="text" name="name"> 
  <br/>
