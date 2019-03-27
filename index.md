@@ -19,8 +19,8 @@ Kids and adults
  Name: <input type="text" name="usrname"> 
 <br>
 <br>
-<input type="checkbox" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
-<input type="checkbox" name="response" value="No" /> Nah, not this time
+<input type="radio" name="response" value="Yes" /> Yes, I will be there &nbsp;&nbsp;&nbsp;        
+<input type="radio" name="response" value="No" /> Nah, not this time
 <br>
 <br> 
 <textarea rows="4" cols="50" name="comment" form="usrform">
