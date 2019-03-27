@@ -24,8 +24,9 @@ movement will be limited to own Half only.
 <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
 
 <br><br> 
-  <input type="submit" value="Send"/>
 </form>
+
+  <input type="submit" value="Send"/>
 
 ### Location
 
