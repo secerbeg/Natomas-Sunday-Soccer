@@ -20,7 +20,7 @@ movement will be limited to own Half only.
    currWeekSunday = new Date(d.setDate(diff));
    actualDate = currWeekSunday;
  
-   if (d.getDate() > currWeekSunday.getDate() )
+   if (new Date().getDate() > currWeekSunday.getDate() )
    {
      actualDate = new Date();
    }
@@ -29,12 +29,12 @@ movement will be limited to own Half only.
   m = (actualDate.getMonth() + 1);
   d = actualDate.getDate(); 
  
-document.write(d.getDate()); 
+document.write(document.write(m+'/'+d+'/'+y); ); 
   
   
  </script>
   
-  No
+  Yes
   
  <br/> 
  Name: <input type="text" name="name"> 
