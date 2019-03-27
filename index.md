@@ -11,13 +11,13 @@ var d = new Date();
 document.getElementById("demo").innerHTML = d.getFullYear();
 </script>
 
-Next practice/game date: <p id="demo"></p>
+<strong>Next practice/game date:</strong> <p id="demo"></p>
 
 <html>
 <body>
 <form action="mailto:secerbeg@gmail.com" method="post" enctype="text/plain" id="usrform">
 
-<p><strong><b>Response:</b></strong></p>
+<p><strong>Response:</strong></p>
  
  Name: <input type="text" name="usrname"> 
 <br>
